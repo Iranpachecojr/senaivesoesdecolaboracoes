@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-26T20:10:59.932Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="THqF1zGFTdzs1vA2uDWk" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-26T20:40:41.013Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="eN9HSO3TRRkhmL0mdsn-" type="github">
   <diagram id="k_OrNscRlnqaCBvygTYa" name="Página-1">
-    <mxGraphModel dx="2515" dy="2426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2515" dy="2281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,16 +96,19 @@
         <mxCell id="h6jW9ebTjG9hR_AHm1qp-19" value="SE NÃO" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="187" width="140" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="h6jW9ebTjG9hR_AHm1qp-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1" source="h6jW9ebTjG9hR_AHm1qp-41">
+        <mxCell id="h6jW9ebTjG9hR_AHm1qp-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;entryX=0.985;entryY=0.771;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="h6jW9ebTjG9hR_AHm1qp-41" target="h6jW9ebTjG9hR_AHm1qp-75">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="940" as="targetPoint" />
+            <mxPoint x="720" y="1020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="710" />
+              <mxPoint x="600" y="940" />
+              <mxPoint x="730" y="940" />
+              <mxPoint x="730" y="1022" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="h6jW9ebTjG9hR_AHm1qp-41" value="SE NÃO&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="650" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="h6jW9ebTjG9hR_AHm1qp-44" value="FIM DO SISTEMA" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="960" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="h6jW9ebTjG9hR_AHm1qp-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1" source="h6jW9ebTjG9hR_AHm1qp-48" target="h6jW9ebTjG9hR_AHm1qp-51">
           <mxGeometry relative="1" as="geometry" />
@@ -132,8 +135,14 @@
             <mxPoint x="140" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h6jW9ebTjG9hR_AHm1qp-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;" edge="1" parent="1" source="h6jW9ebTjG9hR_AHm1qp-52" target="h6jW9ebTjG9hR_AHm1qp-44">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="h6jW9ebTjG9hR_AHm1qp-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1" source="h6jW9ebTjG9hR_AHm1qp-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="888" />
+              <mxPoint x="420" y="1000" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="h6jW9ebTjG9hR_AHm1qp-52" value="ESTOQUE INSULFICIENTE&lt;br&gt;DESEJA TENTAR OUTRO VALOR&lt;br&gt;S/N" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="823" width="140" height="130" as="geometry" />
@@ -156,8 +165,10 @@
             <mxPoint x="140" y="1049" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h6jW9ebTjG9hR_AHm1qp-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1" source="h6jW9ebTjG9hR_AHm1qp-54" target="h6jW9ebTjG9hR_AHm1qp-44">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="h6jW9ebTjG9hR_AHm1qp-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;entryX=0.667;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="h6jW9ebTjG9hR_AHm1qp-54" target="h6jW9ebTjG9hR_AHm1qp-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490.0000833333911" y="1000.0666666666671" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="h6jW9ebTjG9hR_AHm1qp-54" value="DESEJA&amp;nbsp; RETORNA&amp;nbsp;&lt;br&gt;AO INICIO DO SISTEMA&lt;br&gt;S/N&amp;nbsp;" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="1004" width="140" height="90" as="geometry" />
@@ -189,11 +200,16 @@
         <mxCell id="h6jW9ebTjG9hR_AHm1qp-70" value="SE VENDAS&amp;nbsp;&lt;br&gt;&amp;lt;=&lt;br&gt;ESTOQUE&lt;br&gt;DESEJA&amp;nbsp; CONTINUAR?&lt;br&gt;S/N" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="570" width="160" height="139.5" as="geometry" />
         </mxCell>
-        <mxCell id="h6jW9ebTjG9hR_AHm1qp-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;" edge="1" parent="1" source="h6jW9ebTjG9hR_AHm1qp-71" target="h6jW9ebTjG9hR_AHm1qp-44">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="h6jW9ebTjG9hR_AHm1qp-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1" source="h6jW9ebTjG9hR_AHm1qp-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="930" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="h6jW9ebTjG9hR_AHm1qp-71" value="SE NÃO" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h6jW9ebTjG9hR_AHm1qp-75" value="SISTEMA&amp;nbsp; ENCERRADO" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="960" width="180" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
